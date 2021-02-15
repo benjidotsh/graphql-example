@@ -1,0 +1,32 @@
+{
+  "name": "graphql-example",
+  "version": "1.0.0",
+  "description": "An example of GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjiJanssens/graphql-example.git"
+  },
+  "keywords": [
+    "graphql",
+    "example"
+  ],
+  "author": "Benjamin Janssens <benji.janssens@gmail.com> (https://benjijanssens.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjiJanssens/graphql-example/issues",
+    "email": "benji.janssens@gmail.com"
+  },
+  "homepage": "https://github.com/benjiJanssens/graphql-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
